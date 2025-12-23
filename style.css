@@ -1,0 +1,155 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+nav.scrolled {
+    background-color: #1e293b;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+/* Sections */
+.section {
+    min-height: 100vh;
+    padding: 120px 60px;
+    text-align: center;
+}
+
+/* Home */
+.home {
+    background: linear-gradient(to right, #0f172a, #1e293b);
+    color: white;
+}
+
+.home h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.home p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Button */
+.btn {
+    padding: 12px 25px;
+    border: none;
+    background-color: #38bdf8;
+    color: #0f172a;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.btn:hover {
+    background-color: #0ea5e9;
+    transform: scale(1.05);
+}
+
+/* About */
+.about {
+    background-color: #f1f5f9;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* Services */
+.services {
+    background-color: #e2e8f0;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 220px;
+    border-radius: 12px;
+    font-size: 18px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact */
+.contact {
+    background-color: #f8fafc;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 100px;
+}
