@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,6 @@
     font-family: Arial, sans-serif;
 }
 
-/* Navbar */
 nav {
     position: fixed;
     top: 0;
@@ -51,14 +50,12 @@ nav.scrolled {
     color: #38bdf8;
 }
 
-/* Sections */
 .section {
     min-height: 100vh;
     padding: 120px 60px;
     text-align: center;
 }
 
-/* Home */
 .home {
     background: linear-gradient(to right, #0f172a, #1e293b);
     color: white;
@@ -74,7 +71,6 @@ nav.scrolled {
     margin-bottom: 30px;
 }
 
-/* Button */
 .btn {
     padding: 12px 25px;
     border: none;
@@ -91,7 +87,6 @@ nav.scrolled {
     transform: scale(1.05);
 }
 
-/* About */
 .about {
     background-color: #f1f5f9;
 }
@@ -102,7 +97,6 @@ nav.scrolled {
     font-size: 18px;
 }
 
-/* Services */
 .services {
     background-color: #e2e8f0;
 }
@@ -128,7 +122,6 @@ nav.scrolled {
     transform: translateY(-10px);
 }
 
-/* Contact */
 .contact {
     background-color: #f8fafc;
 }
